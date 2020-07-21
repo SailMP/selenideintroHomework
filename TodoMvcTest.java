@@ -18,11 +18,5 @@ public class TodoMvcTest {
         elements("#todo-list>li").filterBy(cssClass("completed")).shouldHave(exactTexts("b"));
         elements("#todo-list>li").filterBy(not(cssClass("completed"))).shouldHave(exactTexts("a", "c"));
 
-
-
-
-
-
-
     }
 }
